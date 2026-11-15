@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0 http://www.kde.org/standards/kcfg/1.0/kcfg.xsd">
+    <kcfgfile name=""/>
+    <group name="General">
+        <entry name="consoleUrl" type="String">
+            <label>Console URL</label>
+            <default></default>
+        </entry>
+        <entry name="apiKey" type="Password">
+            <label>Integration API key</label>
+            <default></default>
+        </entry>
+        <entry name="siteId" type="String">
+            <label>Site ID (optional, first site if empty)</label>
+            <default></default>
+        </entry>
+        <entry name="pollSeconds" type="Int">
+            <label>Refresh interval (seconds)</label>
+            <default>30</default>
+            <min>10</min>
+            <max>3600</max>
+        </entry>
+        <entry name="graphSeconds" type="Int">
+            <label>Traffic graph interval (seconds)</label>
+            <default>1</default>
+            <min>1</min>
+            <max>60</max>
+        </entry>
+    </group>
+</kcfg>

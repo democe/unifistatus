@@ -1,2 +1,2 @@
 # unifistatus
-unifi console status monitor widget
+unifi console status monitor plasmoid
