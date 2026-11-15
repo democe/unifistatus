@@ -24,14 +24,14 @@ QtObject {
                 try {
                     onOk(JSON.parse(xhr.responseText));
                 } catch (e) {
-                    onErr("Unexpected response");
+                    onErr(i18n("Unexpected response"));
                 }
             } else if (xhr.status === 401 || xhr.status === 403) {
-                onErr("Invalid API key");
+                onErr(i18n("Invalid API key"));
             } else if (xhr.status === 0) {
-                onErr("Console unreachable");
+                onErr(i18n("Console unreachable"));
             } else {
-                onErr("HTTP " + xhr.status);
+                onErr(i18n("HTTP %1", xhr.status));
             }
         };
         xhr.send();

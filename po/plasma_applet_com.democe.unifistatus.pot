@@ -1,0 +1,175 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the UniFi Status package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: UniFi Status\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-15 13:33-0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: contents/config/config.qml:7
+msgid "General"
+msgstr ""
+
+#: contents/ui/ConfigGeneral.qml:17
+msgid "Console URL:"
+msgstr ""
+
+#: contents/ui/ConfigGeneral.qml:24
+msgid "API key:"
+msgstr ""
+
+#: contents/ui/ConfigGeneral.qml:29
+msgid "Site ID:"
+msgstr ""
+
+#: contents/ui/ConfigGeneral.qml:30
+msgid "Optional, defaults to the first site"
+msgstr ""
+
+#: contents/ui/ConfigGeneral.qml:35
+msgid "Refresh every:"
+msgstr ""
+
+#: contents/ui/ConfigGeneral.qml:39 contents/ui/ConfigGeneral.qml:48
+msgid "%1 s"
+msgstr ""
+
+#: contents/ui/ConfigGeneral.qml:44
+msgid "Traffic graph every:"
+msgstr ""
+
+#: contents/ui/ConfigGeneral.qml:52
+msgid "Toggle popup:"
+msgstr ""
+
+#: contents/ui/FullRepresentation.qml:19
+msgid "%1 Mb/s"
+msgstr ""
+
+#: contents/ui/FullRepresentation.qml:19
+msgid "%1 kb/s"
+msgstr ""
+
+#: contents/ui/FullRepresentation.qml:55
+msgid "UniFi Console"
+msgstr ""
+
+#: contents/ui/FullRepresentation.qml:63
+msgid "Controller %1"
+msgstr ""
+
+#: contents/ui/FullRepresentation.qml:64 contents/ui/FullRepresentation.qml:87
+msgid "Not configured"
+msgstr ""
+
+#: contents/ui/FullRepresentation.qml:85
+msgid "Connected"
+msgstr ""
+
+#: contents/ui/FullRepresentation.qml:86
+msgid "Unavailable"
+msgstr ""
+
+#: contents/ui/FullRepresentation.qml:99
+msgid "Devices"
+msgstr ""
+
+#: contents/ui/FullRepresentation.qml:100
+msgid "Clients"
+msgstr ""
+
+#: contents/ui/FullRepresentation.qml:101
+msgid "Networks"
+msgstr ""
+
+#: contents/ui/FullRepresentation.qml:102
+#: contents/ui/FullRepresentation.qml:286
+msgid "Wi-Fi"
+msgstr ""
+
+#: contents/ui/FullRepresentation.qml:131
+msgid "Internet traffic"
+msgstr ""
+
+#: contents/ui/FullRepresentation.qml:140
+msgid "↓ %1"
+msgstr ""
+
+#: contents/ui/FullRepresentation.qml:145
+msgid "↑ %1"
+msgstr ""
+
+#: contents/ui/FullRepresentation.qml:151
+msgid "peak %1"
+msgstr ""
+
+#: contents/ui/FullRepresentation.qml:218
+msgid "%1 ms latency"
+msgstr ""
+
+#: contents/ui/FullRepresentation.qml:241
+msgid "WAN"
+msgstr ""
+
+#: contents/ui/FullRepresentation.qml:256
+msgid "Devices · %1 of %2 online"
+msgstr ""
+
+#: contents/ui/FullRepresentation.qml:271
+msgid "Networks & VLANs"
+msgstr ""
+
+#: contents/ui/FullRepresentation.qml:278
+msgid "VLAN %1"
+msgstr ""
+
+#: contents/ui/FullRepresentation.qml:294
+msgid "Disabled"
+msgstr ""
+
+#: contents/ui/main.qml:32
+msgid "UniFi Status"
+msgstr ""
+
+#: contents/ui/main.qml:33
+msgid "UniFi console"
+msgstr ""
+
+#: contents/ui/main.qml:35
+msgid "%1 of %2 devices online"
+msgstr ""
+
+#: contents/ui/main.qml:36
+msgid "Configure the console URL and API key"
+msgstr ""
+
+#: contents/ui/main.qml:97
+msgid "No sites found on the console"
+msgstr ""
+
+#: contents/ui/UnifiApi.qml:27
+msgid "Unexpected response"
+msgstr ""
+
+#: contents/ui/UnifiApi.qml:30
+msgid "Invalid API key"
+msgstr ""
+
+#: contents/ui/UnifiApi.qml:32
+msgid "Console unreachable"
+msgstr ""
+
+#: contents/ui/UnifiApi.qml:34
+msgid "HTTP %1"
+msgstr ""

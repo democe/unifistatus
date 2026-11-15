@@ -16,7 +16,7 @@ ColumnLayout {
     readonly property real peakBps: app.trafficHistory.reduce((m, s) => Math.max(m, s.rx, s.tx), 0)
 
     function formatRate(bps) {
-        return bps >= 1e6 ? (bps / 1e6).toFixed(1) + " Mb/s" : Math.round(bps / 1e3) + " kb/s";
+        return bps >= 1e6 ? i18n("%1 Mb/s", (bps / 1e6).toFixed(1)) : i18n("%1 kb/s", Math.round(bps / 1e3));
     }
 
     Layout.minimumWidth: Kirigami.Units.gridUnit * 24
