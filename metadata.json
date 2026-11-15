@@ -6,7 +6,7 @@
         "Icon": "network-wired",
         "Category": "System Information",
         "License": "MIT",
-        "Version": "0.1.0"
+        "Version": "0.0.1"
     },
     "KPackageStructure": "Plasma/Applet",
     "X-Plasma-API-Minimum-Version": "6.0"
